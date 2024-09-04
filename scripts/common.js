@@ -83,7 +83,7 @@ function IsMobile() {
 }
 
 function IsMainentance() {
-    return true;
+    return false;
 }
 
 function Init() {
