@@ -83,7 +83,12 @@ function IsMobile() {
 }
 
 function IsMainentance() {
-    return false;
+    if (!ByID('devbranch')) {
+		console.log('is in public branch');
+		return true;
+	}
+	console.log('is in dev branch');
+	return false;
 }
 
 function Init() {

@@ -1,0 +1,2 @@
+title;desc,desc;DATE;website-pic-url;platform-tex-url;link
+title;desc,desc;DATE;website-pic-url;platform-tex-url;none
