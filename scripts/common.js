@@ -32,7 +32,11 @@ function JsNavigate(tab) {
     }
     ByID('PageTabContainer').style.width = '100%'
     ByID('PageTabContainer').style.opacity = '1';
-    pagecont.src = './tabs/' + tab + '.html';
+    if (IsPublicBranch()) {
+        pagecont.src = './tabs/' + tab + '.html';
+    } else {
+        pagecont.src = '../tabs/' + tab + '.html';
+    }
 }
 
 function JsPopups(tab) {
@@ -49,7 +53,11 @@ function JsPopups(tab) {
     ByID('PopupContainer').opacity = 1;
     ByID('JsPopupFrame').style.visibility = 'visible';
     ByID('JsStdPopup').style.visibility = 'collapse';
-    ByID('JsPopupFrame').src = './popups/' + tab + '.html';
+    if (IsPublicBranch()) {
+        ByID('JsPopupFrame').src = './popups/' + tab + '.html';
+    } else {
+        ByID('JsPopupFrame').src = '../popups/' + tab + '.html';
+    }
 }
 
 function JsStandardPopups(title, message, button, isbtnenabled) {
@@ -82,13 +90,16 @@ function IsMobile() {
     return /Mobi|Android/i.test(navigator.userAgent);
 }
 
-function IsMainentance() {
+function IsPublicBranch() {
     if (!ByID('devbranch')) {
-		console.log('is in public branch');
 		return true;
 	}
-	console.log('is in dev branch');
 	return false;
+}
+
+function IsMainentance() {
+    // return true;
+	return IsPublicBranch();
 }
 
 function Init() {
@@ -100,4 +111,9 @@ function Init() {
     if (!IsMobile) {
         JsStandardPopupsNoBtn('14H', '14H Website is unavailable on mobile devices', '', false);
     }
+    var brname = 'dev'
+    if (IsPublicBranch()) {
+        brname = 'public';
+    } 
+    console.log( 'Running in ' + brname + ' branch.' );
 }
