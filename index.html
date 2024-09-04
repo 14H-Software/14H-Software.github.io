@@ -3,15 +3,30 @@
     <head>
         <title>14H Software</title>
         <link rel="stylesheet" type="text/css" href="./styles/commonstyles.css">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="JsMTPanel" class="mt-panel"><div class="mt-panel-inner">
+        <div id="JsMainBG" class="full-width full-height bgimage-full-size mainpage-bg"></div>
+        <div id="JsMTPanel" class="mt-panel hidden"><div class="mt-panel-inner">
             <label class="mt-label-primary centerized-horizontal">MAINTENANCE</label>
             <label class="mt-label-secondary centerized-horizontal">Currently 14H Website in unavailable. Please try again later.</label>
         </div></div>
 
+        <iframe id="PageTabContainer" class="mainpage-tabcont" src="./tabs/test.html"> </iframe>
+
+        <div class="mainpage-sidebar">
+            <button id="JsSbHomeBtn" class="mainpage-sidebar-btn mainpage-sidebar-btn-home" onclick="JsNavigate( false )">HOME</button>
+            <button class="mainpage-sidebar-btn" onclick="JsNavigate( 'test' )">NAV TO TEST</button>
+        </div>
+
+        <div class="mainpage-header">
+
+        </div>
+
+        <!--#region scripts-->
+        <script src="scripts/common.js"></script>
+        <!--#endregion-->
     </body>
 </html>
