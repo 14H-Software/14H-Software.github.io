@@ -92,7 +92,7 @@ function Init() {
     if (IsMainentance()) {
         JsStandardPopupsNoBtn('MAINTENANCE', '14H Website is temporarily unavailable. Please try again later.', 'Continiue', false);
     }
-    if (IsMobile) {
+    if (!IsMobile) {
         JsStandardPopupsNoBtn('14H', '14H Website is unavailable on mobile devices', '', false);
     }
 }
