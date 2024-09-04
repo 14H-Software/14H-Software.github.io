@@ -1,0 +1,136 @@
+/*                     */
+/*    COMMON STYLES    */
+/*                     */
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section, time {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    color: black;
+    background-color: #1F1F1F;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* #region common */
+.centerized {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centerized-horizontal {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.centerized-vertical {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+/* #endregion */
+
+/* #region maintenance */
+
+.mt-panel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 700px;
+    background-color: #FF0000A1;
+    box-shadow: 0px 0px 10px 3px #FF000081;
+}
+
+.mt-panel-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+    width: 700px;
+    background-color: #2F353EA1;
+    box-shadow: 0px 0px 10px 3px #2F353E81;
+}
+
+.mt-panel-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 580px;
+    width: 680px;
+    background-color: #FFFFFF;
+    border: 1px solid #1F1F1F;
+}
+
+.mt-label-primary {
+    position: absolute;
+    top: 140px;
+    font-family: Consolas;
+    font-weight: bold;
+    font-size: 40px;
+    color: #000000;
+}
+
+.mt-label-secondary {
+    position: absolute;
+    bottom: 140px;
+    font-family: Consolas;
+    font-size: 22px;
+    color: #000000;
+    text-align: center;
+}
+
+
+/* #endregion */
