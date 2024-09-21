@@ -3,11 +3,17 @@
 	"CurrentVersion"	"6656"
 	"MinClientVersion"	"6000"
 }
-@fli_skeudx_preview
+@profiler_fli_skeudx_preview
 {
 	"CurrentVersion"	"6656"
 	"MinClientVersion"	"6654"
 }
+@fli_skeudx_preview
+{
+	"CurrentVersion"	"9999"
+	"MinClientVersion"	"9999"
+}
+
 @profiler_stable_oct_2024
 {
 	"CurrentVersion"	"6676"
