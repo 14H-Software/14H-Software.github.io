@@ -4,8 +4,8 @@
 		<!--#include <econstyles.xml>-->
 		<!--#include "pfr://fli/includes/14h.fli_xml"-->
 	</Styles>
-	<Panel Background="#2F353E">
-		<Panel Background="#567893" />
+	<Panel Background="#567893" />
+	<Panel HorizontalAlignment="Center" VerticalAlignment="Center">
 		<Panel HorizontalAlignment="Left">
 			<Rectangle 
 				Height="20" 
