@@ -11,7 +11,7 @@
 				<Panel Background="#000000" Margin="10" effect="drop-shadow-light" />
 				<Border Margin="10" BorderBrush="#000000" Background="#FFFFFF" BorderThickness="1" CornerRadius="1">
 					<Panel>
-						<Label HA="Center" VA="Top" FontFamily="Segoe UI" FontSize="86" FontWeight="Bold" Margin="0,50,0,0" Content="403" />
+						<Label HA="Center" VA="Top" FontFamily="Segoe UI" FontSize="86" FontWeight="Bold" Margin="0,50,0,0" Content="404" />
 						<Label HA="Center" VA="Bottom" FontFamily="Segoe UI" FontSize="26" FontWeight="Bold" Margin="0,0,0,70" Content="Page not found." />
 					</Panel>
 				</Border>
