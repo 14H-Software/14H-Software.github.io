@@ -1,0 +1,94 @@
+<root>
+	<Styles>
+		<!--#include <commonstyles.xml>-->
+		<!--#include <econstyles.xml>-->
+		<!--#include "pfr://fli/includes/14h.fli_xml"-->
+	</Styles>
+	<Panel Background="#567893" />
+	<Panel HorizontalAlignment="Center" VerticalAlignment="Center">
+		<Panel HorizontalAlignment="Left">
+			<Rectangle 
+				Height="20" 
+				Width="40"
+				Fill="#111111"
+				Margin="0,80,0,0"
+				effect="drop-shadow-light"
+			/>
+			<Rectangle 
+				Height="5" 
+				Width="100"
+				Fill="#111111"
+				Margin="0,105,0,0"
+				effect="drop-shadow-light"
+			/>
+			<Border
+				Height="90"
+				Width="160"
+				Background="#1F1F1F"
+				CornerRadius="3"
+				Margin="0,0,0,30"
+			>
+				<Panel Margin="5" Background="#00C1FF" effect="newsentry-sidepanel-glow">
+					<Panel
+						Width="90"
+						Height="50"
+						Background="#2F353E"
+					>
+						<Panel Margin=".5,4,.5,.5" Background="#C3C3C3" ClipToBounds="True">
+							<Display src="file://{layout}/14h.xml" Margin="-20,-70,0,0" Opacity=".3" />
+						</Panel>
+					</Panel>
+				</Panel>
+			</Border>
+		</Panel>
+		<Panel HorizontalAlignment="Left">
+			<Border
+				Width="55"
+				Height="120"
+				Background="#111111"
+				effect="drop-shadow-light"
+			    HorizontalAlignment="Left"
+				Margin="175,0,0,0"
+				CornerRadius="4,4,0,0"
+			/>
+			<Panel
+				Width="55"
+				Height="120"
+				HorizontalAlignment="Left"
+				Margin="175,0,0,0"
+			>
+				<StackPanel VerticalAlignment="Top" Margin="4">
+					<Rectangle Fill="#808080" Height="12" Margin="0,0,0,2" />
+					<Rectangle Fill="#808080" Height="12" Margin="0,0,0,2" />
+					<Rectangle Fill="#808080" Height="12" Margin="0,0,0,2" />
+					<Rectangle 
+						Fill="#808080" 
+						Height="6" 
+						Margin="13,2,0,0"
+					/>
+				</StackPanel>
+				<Ellipse
+					Height="8"
+					Width="8"
+					Fill="#808080"
+					HorizontalAlignment="Right"
+					Margin="0,10,5,0"
+				/>
+				<Ellipse
+					Height="4"
+					Width="4"
+					Fill="#808080"
+					HorizontalAlignment="Right"
+					Margin="0,30,7,0"
+				/>
+				<Ellipse
+					Height="4"
+					Width="4"
+					Fill="#808080"
+					HorizontalAlignment="Right"
+					Margin="0,45,7,0"
+				/>
+			</Panel>
+		</Panel>
+	</Panel>
+</root>
