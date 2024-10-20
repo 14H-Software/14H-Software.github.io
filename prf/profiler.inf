@@ -1,12 +1,12 @@
 @Profiler
 {
-	"CurrentVersion"	"6658"
+	"CurrentVersion"	"6659"
 	"MinClientVersion"	"6000"
 }
 @profiler_fli_skeudx_preview
 {
-	"CurrentVersion"	"6658"
-	"MinClientVersion"	"6656"
+	"CurrentVersion"	"6659"
+	"MinClientVersion"	"6657"
 }
 @fli_skeudx_preview
 {
