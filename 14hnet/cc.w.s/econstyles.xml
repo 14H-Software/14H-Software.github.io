@@ -1,0 +1,40 @@
+<!-- 
+<Style 					x:Key="" 											TargetType=""									>
+	<Setter 			Property=""						 					Value="" 										/>
+	<Setter 			Property="" 										Value="" 										/>
+	<Setter 			Property="" 										Value="" 										/>
+	<Setter 			Property="" 										Value="" 										/>
+	<Setter 			Property="" 										Value="" 										/>
+</Style																														>
+-->
+<Style 					x:Key="award-base--normal"							TargetType="Grid"								>
+	<Setter 			Property="Height"						 			Value="500" 									/>
+	<Setter 			Property="Width" 									Value="500" 									/>
+	<Setter 			Property="HorizontalAlignment"						Value="Center"									/>
+	<Setter 			Property="HorizontalAlignment"						Value="Center"									/>
+</Style																														>
+<SolidColorBrush 		x:Key="color-yellow" 								Color="#FFFF00" 								/>
+<SolidColorBrush 		x:Key="color-gold" 									Color="#FFD721" 								/>		
+<SolidColorBrush 		x:Key="color-gold--dimmed" 							Color="#8E7812" 								/>		
+<SolidColorBrush 		x:Key="color-gold--lightdimmed" 					Color="#C2A419" 								/>		
+<SolidColorBrush 		x:Key="color-gold--darkdimmed" 						Color="#715F0F" 								/>		
+<SolidColorBrush 		x:Key="color-silv"									Color="#B0B0B0" 								/>		
+<SolidColorBrush 		x:Key="color-silv--dimmed"							Color="#838383" 								/>		
+<SolidColorBrush 		x:Key="color-silv--lightdimmed"						Color="#999999" 								/>		
+<SolidColorBrush 		x:Key="color-silv--darkdimmed"						Color="#6D6D6D" 								/>		
+<SolidColorBrush 		x:Key="color-brnz"									Color="#905923" 								/>		
+<SolidColorBrush 		x:Key="color-brnz--dimmed"							Color="#47351A" 								/>		
+<SolidColorBrush 		x:Key="color-brnz--lightdimmed"						Color="#67553A" 								/>		
+<SolidColorBrush 		x:Key="color-brnz--darkdimmed"						Color="#362409" 								/>		
+<SolidColorBrush 		x:Key="color-dim--normal" 							Color="#41000000" 								/>		
+<SolidColorBrush 		x:Key="color-dim--light" 							Color="#21000000" 								/>		
+<SolidColorBrush 		x:Key="color-dim--dark" 							Color="#61000000" 								/>		
+<DropShadowEffect 		x:Key="drop-shadow-stroke" 							ShadowDepth="0" 		BlurRadius="15" 		/>		
+<DropShadowEffect 		x:Key="drop-shadow-base" 							ShadowDepth="0" 		BlurRadius="20" 		/>		
+<DropShadowEffect 		x:Key="drop-shadow-light" 							ShadowDepth="0" 		BlurRadius="5" 			/>		
+<DropShadowEffect 		x:Key="shine-normal" Color="#FFFFFF"	Opacity="1"	ShadowDepth="0" 		BlurRadius="25" 		/>		
+<RadialGradientBrush 	x:Key="dim-radial"																					>		
+	<GradientStop		Offset="1.0"										Color="#41000000"								/>		
+	<GradientStop		Offset="0.96"										Color="#00000000"								/>		
+	<GradientStop		Offset="0.0"										Color="#00000000"								/>		
+</RadialGradientBrush>

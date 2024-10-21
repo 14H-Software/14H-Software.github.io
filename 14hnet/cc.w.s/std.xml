@@ -1,0 +1,27 @@
+<!--#meta-->
+<!-- 
+	FILENAME="std.xml"
+	URL="std.xml"
+	SC="stdcol/std/stdfli"
+	DATE="#"
+	FLI.SRC="NTFS"
+	FLI.ALTSRC="HEFS"
+	FLI.NETSRC="HNFS"
+-->
+<!--#endmeta-->
+<LinearGradientBrush 	x:Key="std--silver"		StartPoint="1,0" 			EndPoint="1,1"									>
+	<GradientStop 		Offset="0.0" 										Color="#C3C3C3" 								/>
+	<GradientStop 		Offset="1.0" 										Color="#818181"									/>
+</LinearGradientBrush																										>
+<LinearGradientBrush 	x:Key="std--outer"		StartPoint="1,0" 			EndPoint="1,1"									>
+	<GradientStop 		Offset="0.0" 										Color="#444444" 								/>
+	<GradientStop 		Offset="1.0" 										Color="#2F2F2F"									/>
+</LinearGradientBrush																										>
+<LinearGradientBrush 	x:Key="std--inner"		StartPoint="1,0" 			EndPoint="1,1"									>
+	<GradientStop 		Offset="0.0" 										Color="#131313"									/>
+	<GradientStop 		Offset="1.0" 										Color="#2F2F2F" 								/>
+</LinearGradientBrush																										>
+<LinearGradientBrush 	x:Key="std--outer-highlight"	StartPoint="1,0"	EndPoint="1,1"									>
+	<GradientStop 		Offset="0.0" 										Color="#707070"									/>
+	<GradientStop 		Offset="1.0" 										Color="#525252" 								/>
+</LinearGradientBrush																										>
