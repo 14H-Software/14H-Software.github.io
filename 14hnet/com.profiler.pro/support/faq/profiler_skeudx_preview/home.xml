@@ -6,7 +6,7 @@
 		<!--#include <commonstyles.xml>-->
 		<!--#include <econstyles.xml>-->
 	</Styles>
-	<Panel Width="1280" Height="720" Background="#1F1F1F">
+	<Panel Background="#1F1F1F">
 		<Label Content="#[title]" foreground="silver_gr" FontFamily="ST2BD" FontSize="61" effect="drop-shadow-stroke" Margin="50,10" />
 		<Border Margin="60,100,60,60" BorderBrush="{StaticResource silver_gr}" effect="drop-shadow-stroke" CornerRadius="10" background="defcol_gr" />
 		<Border Margin="60,100,60,60" BorderBrush="{StaticResource silver_gr}" BorderThickness="2" CornerRadius="10" background="defcol_gr">
