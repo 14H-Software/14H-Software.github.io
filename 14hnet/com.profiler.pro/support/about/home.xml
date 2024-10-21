@@ -1,0 +1,27 @@
+<!--#define <title,14H(R) Profiler>-->
+<!--#define <legal,Copyright (C) 2022-2024, 14H(R) Software, Inc.>-->
+<!--#define <version,Version:>-->
+<!--#define <legal_rights,All rights reserved.>-->
+<root>
+	<Styles>
+		<!--#include <commonstyles>-->
+		<!--#include <econstyles>-->
+		<!--#include <std>-->
+	</Styles>
+	
+	<Panel background="std--inner">
+	<Border Height="190" Width="500" effect="drop-shadow-stroke" CornerRadius="7" background="std--outer"/>
+		<Border Height="190" Width="500" BorderBrush="{StaticResource std--silver}" BorderThickness="2" CornerRadius="7" background="std--outer">
+			<Panel>
+				<Border background="std--inner" BorderBrush="{StaticResource std--silver}" VA="Center" HA="Left" BorderThickness="2" Margin="15,0,0,0">
+					<Display Margin="1" src="file://{layout}/14h.xml" />
+				</Border>
+				<Label HA="Left" VA="Top" Margin="190,15,0,0" FontFamily="ST2BL" foreground="std--silver" FontSize="36" Content="#[title]" />
+				<Label HA="Left" VA="Top" Margin="195,70,0,0" FontFamily="ST2RG" foreground="std--silver" FontSize="18" Content="#[legal]" />
+				<Label HA="Left" VA="Top" Margin="265,95,0,0" FontFamily="ST2RG" foreground="std--silver" FontSize="18" class="prf--version" />
+				<Label HA="Left" VA="Top" Margin="195,95,0,0" FontFamily="ST2RG" foreground="std--silver" FontSize="18" Content="#[version]" />
+				<Label HA="Left" VA="Top" Margin="195,120,0,0" FontFamily="ST2RG" foreground="std--silver" FontSize="18" Content="#[legal_rights]" />
+			</Panel>
+		</Border>
+	</Panel>
+</root>
