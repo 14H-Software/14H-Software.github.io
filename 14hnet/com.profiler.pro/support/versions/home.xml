@@ -1,0 +1,276 @@
+<!--#define <a_0,#FF0000>-->
+<!--#define <a_1,#00FF00>-->
+<root>
+	<Styles>
+		<!--#include <std>-->
+		<!--#include <econstyles>-->
+		<!--#include <commonstyles>-->
+	</Styles>
+	<Panel Background="#1f1f1f">
+		<TextBlock
+			HA="Left"
+			VA="Top"
+			FontFamily="ST2BD"
+			FontSize="41"
+			foreground="std--silver"
+			Margin="15"
+			Text="#[TITLE_TXT]"
+		/>
+		<Panel
+			Margin="15,75,15,15"
+			VA="Top"
+		>
+			<ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Hidden">
+				<Border
+					BorderBrush="{StaticResource std--silver}"
+					BorderThickness="2"
+				>
+					<StackPanel>
+					<Panel Height="40" background="std--outer">
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							foreground="std--silver"
+							Content="Available"
+							Margin="10,0,0,0"
+						/>
+						<Panel HA="Left" VA="Stretch" background="std--silver" Width="2" Margin="120,0,0,0" />
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							foreground="std--silver"
+							Content="Version"
+							Margin="135,0,0,0"
+						/>
+						<Panel HA="Left" VA="Stretch" background="std--silver" Width="2" Margin="330,0,0,0" />
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							foreground="std--silver"
+							Content="Link"
+							Margin="345,0,0,0"
+						/>
+					</Panel>
+					<Panel background="std--silver" Height="2"/>
+					<Panel Height="40" background="std--outer">
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							Foreground="#[a_0]"
+							Content="No"
+							Margin="10,0,0,0"
+						/>
+						<Panel HA="Left" VA="Stretch" background="std--silver" Width="2" Margin="120,0,0,0" />
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							foreground="std--silver"
+							Content="1.21.8.0/6657 (beta)"
+							Margin="135,0,0,0"
+						/>
+						<Panel HA="Left" VA="Stretch" background="std--silver" Width="2" Margin="330,0,0,0" />
+						<TextBox 
+							HA="Left" 
+							VA="Center"
+							BorderThickness="0"
+							Background="#00000000"
+							FontFamily="ST2RG"
+							IsReadOnly="True"
+							FontSize="23"
+							foreground="std--silver"
+							Text="Link Not Available"
+							Margin="345,0,0,0"
+						/>
+					</Panel>
+					<Panel background="std--silver" Height="2"/>
+					<Panel Height="40" background="std--outer">
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							Foreground="#[a_0]"
+							Content="No"
+							Margin="10,0,0,0"
+						/>
+						<Panel HA="Left" VA="Stretch" background="std--silver" Width="2" Margin="120,0,0,0" />
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							foreground="std--silver"
+							Content="1.21.8.1/6658 (beta)"
+							Margin="135,0,0,0"
+						/>
+						<Panel HA="Left" VA="Stretch" background="std--silver" Width="2" Margin="330,0,0,0" />
+						<TextBox 
+							HA="Left" 
+							VA="Center"
+							BorderThickness="0"
+							Background="#00000000"
+							FontFamily="ST2RG"
+							IsReadOnly="True"
+							FontSize="23"
+							foreground="std--silver"
+							Text="Link Not Available"
+							Margin="345,0,0,0"
+						/>
+					</Panel>
+					<Panel background="std--silver" Height="2"/>
+					<Panel Height="40" background="std--outer">
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							Foreground="#[a_0]"
+							Content="No"
+							Margin="10,0,0,0"
+						/>
+						<Panel HA="Left" VA="Stretch" background="std--silver" Width="2" Margin="120,0,0,0" />
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							foreground="std--silver"
+							Content="1.21.8.2/6659 (beta)"
+							Margin="135,0,0,0"
+						/>
+						<Panel HA="Left" VA="Stretch" background="std--silver" Width="2" Margin="330,0,0,0" />
+						<TextBox 
+							HA="Left" 
+							VA="Center"
+							BorderThickness="0"
+							Background="#00000000"
+							FontFamily="ST2RG"
+							IsReadOnly="True"
+							FontSize="23"
+							foreground="std--silver"
+							Text="Link Not Available"
+							Margin="345,0,0,0"
+						/>
+					</Panel>
+					<Panel background="std--silver" Height="2"/>
+					<Panel Height="40" background="std--outer">
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							Foreground="#[a_0]"
+							Content="No"
+							Margin="10,0,0,0"
+						/>
+						<Panel HA="Left" VA="Stretch" background="std--silver" Width="2" Margin="120,0,0,0" />
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							foreground="std--silver"
+							Content="1.21.8.2/6660 (beta)"
+							Margin="135,0,0,0"
+						/>
+						<Panel HA="Left" VA="Stretch" background="std--silver" Width="2" Margin="330,0,0,0" />
+						<TextBox 
+							HA="Left" 
+							VA="Center"
+							BorderThickness="0"
+							Background="#00000000"
+							FontFamily="ST2RG"
+							IsReadOnly="True"
+							FontSize="23"
+							foreground="std--silver"
+							Text="Link Not Available"
+							Margin="345,0,0,0"
+						/>
+					</Panel>
+					<Panel background="std--silver" Height="2"/>
+					<Panel Height="40" background="std--outer">
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							Foreground="#[a_0]"
+							Content="No"
+							Margin="10,0,0,0"
+						/>
+						<Panel HA="Left" VA="Stretch" background="std--silver" Width="2" Margin="120,0,0,0" />
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							foreground="std--silver"
+							Content="1.21.8.3/6661 (beta)"
+							Margin="135,0,0,0"
+						/>
+						<Panel HA="Left" VA="Stretch" background="std--silver" Width="2" Margin="330,0,0,0" />
+						<TextBox 
+							HA="Left" 
+							VA="Center"
+							BorderThickness="0"
+							Background="#00000000"
+							FontFamily="ST2RG"
+							IsReadOnly="True"
+							FontSize="23"
+							foreground="std--silver"
+							Text="Link Not Available"
+							Margin="345,0,0,0"
+						/>
+					</Panel>
+					<Panel background="std--silver" Height="2"/>
+					<Panel Height="40" background="std--outer">
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							Foreground="#[a_1]"
+							Content="Yes"
+							Margin="10,0,0,0"
+						/>
+						<Panel HA="Left" VA="Stretch" background="std--silver" Width="2" Margin="120,0,0,0" />
+						<Label 
+							HA="Left" 
+							VA="Center"
+							FontFamily="ST2RG"
+							FontSize="23"
+							foreground="std--silver"
+							Content="1.21.8.4/6662 (beta)"
+							Margin="135,0,0,0"
+						/>
+						<Panel HA="Left" VA="Stretch" background="std--silver" Width="2" Margin="330,0,0,0" />
+						<TextBox 
+							HA="Left" 
+							VA="Center"
+							BorderThickness="0"
+							Background="#00000000"
+							FontFamily="ST2RG"
+							IsReadOnly="True"
+							FontSize="23"
+							foreground="std--silver"
+							Text="https://github.com/14H-Software/14H-Software.github.io/releases/download/6662/profiler_6662.pfw"
+							Margin="345,0,0,0"
+						/>
+					</Panel>
+					</StackPanel>
+				</Border>
+			</ScrollViewer>
+		</Panel>
+		
+	</Panel>
+</root>
