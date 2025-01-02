@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<root>
+	<entry id='file'>https://14h-software.github.io/prf/profiler.xml</entry>
+	<entry id='Profiler'>
+		<entry id='CurrentVersion'>6664</entry>
+		<entry id='MinimalVersion'>6000</entry>
+	</entry>
+	<entry id='profiler_fli_skeudx_preview'>
+		<entry id='CurrentVersion'>6664</entry>
+		<entry id='MinimalVersion'>6662</entry>
+	</entry>
+	<entry id='fli_skeudx_preview'>
+		<entry id='CurrentVersion'>9999</entry>
+		<entry id='MinimalVersion'>9999</entry>
+	</entry>
+	<entry id='profiler_stable_oct_2024'>
+		<entry id='CurrentVersion'>9999</entry>
+		<entry id='MinimalVersion'>9999</entry>
+	</entry>
+	<entry id='profiler_stable_dec_2024'>
+		<entry id='CurrentVersion'>9999</entry>
+		<entry id='MinimalVersion'>9999</entry>
+	</entry>
+	<entry id='profiler_2024'>
+		<entry id='CurrentVersion'>9999</entry>
+		<entry id='MinimalVersion'>9999</entry>
+	</entry>
+</root>
