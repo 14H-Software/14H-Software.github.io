@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<root>
+	<entry id='sigingmethods'>
+		<dictionary>
+			<key>0</key>
+			<value>plt-bt-uck-plt072-%d-d-%v-A17-%b-acc</value>
+			<key>1</key>
+			<value>plt-bt-uck-plt072-%d-as3v-%v-%b-1729-asvc</value>
+		</dictionary>
+	</entry>
+	<entry id='versioninfo'>
+		<dictionary>
+			<key>6664</key>
+			<value>0</value>
+			<key>6665</key>
+			<value>0</value>
+			<key>6666</key>
+			<value>0</value>
+			<key>6667</key>
+			<value>0</value>
+		</dictionary>
+	</entry>
+</root>
